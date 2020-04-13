@@ -16,7 +16,7 @@ body {
 
 body {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    background-color: #000000;
+    background-color:  rgb(12, 9, 9);
     color: #d3d3d3;
     webkit-tap-highlight-color: #222;
 }
@@ -44,7 +44,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #1b01ff;
+    color: #00f7ff;
     outline: 0;
 }
 
@@ -90,7 +90,7 @@ p {
 }
 
 .text-primary {
-    color:#1b01ff;
+    color:#00f7ff;
 }
 
 .modal-content {
@@ -124,7 +124,7 @@ footer {
 
 .navbar-header > .navbar-brand {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    color: #1b01ff;
+    color: #00f7ff;
     padding: 15px;
     -webkit-transition: padding .2s ease-in;
     -moz-transition: padding .2s ease-in;
@@ -133,7 +133,7 @@ footer {
 
 .navbar-header > .navbar-brand:hover,
 .navbar-header > .navbar-brand:focus {
-    color:#1b01ff;
+    color:#00f7ff;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -153,12 +153,12 @@ footer {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color:#1b01ff;
+    color:#00f7ff;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #1b01ff !important;
+    color: #00f7ff !important;
     background-color: transparent;
 }
 
@@ -166,11 +166,6 @@ footer {
 .navbar-default .nav>li.active>a:focus:hover
 {
     background-color: transparent;
-}
-.navbar-image{
-    width:15%;
-    position:realtive;
-    margin-top:-55px;
 }
 
 
@@ -211,14 +206,14 @@ footer {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 170%;
-        color: #1b01ff;
+        color: #00f7ff;
         padding: 20px;
         letter-spacing: 1px;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #1b01ff;
+        color: #00f7ff;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -229,7 +224,7 @@ footer {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #1b01ff;
+        color: #00f7ff;
     }
 }
 
@@ -365,9 +360,7 @@ textarea {
     max-width: 400px;
 }
 .navbar-image{
-    width:7%;
-    position:realtive;
-    margin-top:-16px;
+    width:15%;
   
 }
 
@@ -377,8 +370,6 @@ textarea {
     }
     .navbar-image{
         width:10%;
-        postion:relative;
-        margin-top:-16px;
       
     }
 }
