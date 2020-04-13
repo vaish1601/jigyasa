@@ -203,7 +203,7 @@ footer {
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
-        font-size: 15px;
+        font-size: 150%;
         color: #1b01ff;
         padding: 20px;
         letter-spacing: 1px;
@@ -312,7 +312,7 @@ footer {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
-        font-size: 18px;
+        font-size: 180%;
     }
     
     section {
