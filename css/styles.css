@@ -167,6 +167,10 @@ footer {
 {
     background-color: transparent;
 }
+.navbar-image{
+    width:15%;
+    margin:0%;
+}
 
 
 @media(min-width:768px) {
