@@ -169,7 +169,8 @@ footer {
 }
 .navbar-image{
     width:15%;
-    margin:0%;
+    position:realtive;
+    top:-55px;
 }
 
 
@@ -365,6 +366,8 @@ textarea {
 }
 .navbar-image{
     width:7%;
+    position:realtive;
+    top:-16px;
   
 }
 
