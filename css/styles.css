@@ -22,6 +22,7 @@ body {
 }
 h2{
     text-align: center;
+    
 }
 hr {
     max-width: 80px;
@@ -56,6 +57,7 @@ p {
     font-size: 180%;
     line-height: 1.7;
     margin-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .wide-space {
@@ -90,7 +92,13 @@ p {
 }
 
 .text-primary {
-    color:#00f7ff;
+   
+    font-family: oregon;
+    color: #00f7ff;
+    font-weight: 600;
+    font-size: 2.4em;
+    letter-spacing:1.5px;
+ 
 }
 
 .modal-content {
@@ -106,7 +114,7 @@ aside {
 }
 
 footer {
-    padding: 15px;
+    padding: 30px;
 }
 
 .no-padding {
@@ -353,6 +361,11 @@ textarea {
 
 .margin-top-0 {
     margin-top: 0;
+ 
+  color: #00f7ff;
+  text-align: center;
+
+ 
 }
 
 .feature {
@@ -385,7 +398,7 @@ textarea {
 .gallery-box {
     display: block;
     position: relative;
-    margin: 0 auto;
+    margin: 4%;
     max-width: 650px;
     overflow:hidden;
 }
@@ -496,10 +509,12 @@ fieldset[disabled] .btn-default.active {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+    box-shadow: #00f7ff 5px;
 }
 
 .btn.btn-primary:hover {
     opacity: 0.7;
+    text-shadow: #00f7ff 2px;
 }
 
 .btn {
@@ -567,4 +582,202 @@ img::-moz-selection {
 .mainlogo{
     width:80%;
     margin:5% 7% 0;
+}
+
+
+
+/*timeline fancy stuff*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #000000;
+	font-family: Georgia, serif;
+	color: #fff;
+	font-size: 14px;
+}
+
+.TIMELINE a {
+	color:#00f7ff;
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+    transition: 0.5s;
+    color: aqua;
+    
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 black, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+}
+	a:hover,
+	a.selected {
+        color: #00f7ff;
+        text-decoration: none;
+        
+    }
+    .TIMELINE h3{
+        color: #00f7ff;
+        font-size: 200%;
+        color: aqua;
+    }
+
+.TIMELINE h1,h2,h4,h5,h6 {
+	text-align: center;
+	color: #00f7ff;
+	text-shadow: #000 1px 1px 2px;
+	margin-bottom: 5px;
+}
+	.TIMELINE h1 {
+		font-size: 18px;
+	}
+	.TIMELINE h2 {
+		font-size: 14px;
+	}
+.sociales {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+	#timeline {
+		width: 500px;
+		height: 600px;
+		overflow: hidden;
+		margin: 40px auto;
+		position: relative;
+		/*background: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/dot.gif') 3px top repeat-y;*/
+	}
+		#dates {
+			width: 100px;
+			height: 600px;
+			overflow: hidden;
+			float: left;
+		}
+			#dates li {
+				list-style-type: none;
+				width: 100px;
+				height: 100px;
+				line-height: 100px;
+				font-size: 24px;
+				padding-left: 10px;
+				/*background: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/biggerdot.png') left center no-repeat;*/
+			}
+				#dates a {
+					line-height: 38px;
+					padding-bottom: 10px;
+				}
+				#dates .selected {
+			        font-size: 34px;
+				}
+		
+		#issues {
+			width: 400px;
+			height: 600px;
+			overflow: hidden;
+            float: left;
+            transition:ease-in 1s;
+		}	
+			#issues li {
+				max-width: 300px; // width: 400px;
+				height: 600px;
+				list-style: none;
+         text-align: center; // add
+         
+
+			}
+				#issues li.selected img {
+                    transition: ease-in 1s;
+                    
+				}
+				#issues li img {
+					// float: left;
+            width: 100%; // add
+                    margin: 2%;
+                    
+                    
+					
+				}
+				#issues li h1 {
+					color: #00f7ff;
+					font-size: 48px;
+					text-align: center;
+                    text-shadow: #000 1px 1px 2px;
+                    transition: ease-in 1s;
+				}
+				#issues li p {
+					font-size: 14px;
+					margin: 10px 20px;
+					font-weight: normal;
+					line-height: 22px;
+                    text-shadow: #000 1px 1px 2px;
+                    transition: ease-in 1s;
+				}
+		
+		#grad_top,
+		#grad_bottom {
+			width: 500px;
+			height: 80px;
+			position: absolute;
+		}
+			#grad_top {
+		        top: 0;
+		        /*background: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/grad_top.png') repeat-x;*/
+			}
+			#grad_bottom {
+		        bottom: 0;
+		       /* background: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/grad_bottom.png') repeat-x;*/
+			}
+		
+		#next,
+		#prev {
+			position: absolute;
+			left: 45%; // left: 55%;
+			font-size: 70px;
+			width: 38px;
+			height: 22px;
+			background-position: 0 -44px;
+			background-repeat: no-repeat;
+			text-indent: -9999px;
+			overflow: hidden;
+		}
+			#next:hover,
+			#prev:hover {
+				background-position:  0 0;
+			}
+			#next {
+				bottom: 0;
+				/*background-image: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/next_v.png');*/
+			}
+			#prev {
+				top: 0;
+				/*background-image: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/prev_v.png');*/
+			}
+				#next.disabled,
+				#prev.disabled {
+					opacity: 0.2;
+                }
+.plshelpmealignlol{
+    text-align: right;
+}
+.plshelpmealign{
+    text-align: left;
 }
